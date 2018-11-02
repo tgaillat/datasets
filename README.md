@@ -1,7 +1,8 @@
 # datasets
 
-This repo is for data sets built from different corpora. they can be used for statistical modelling. 
+This repo is for datasets built from different corpora. they can be used for statistical modelling. 
 
+The WSJ NOCE dataset:
 To build the dataset, all occurrences of the three proforms 'this', 'it' and 'that' were extracted from the WSJ and NOCE corpora. 
 This was achieved with a program selecting tokens tagged as pronouns by TreeTagger. As each occurrence was placed in a vector,
 other features of this occurrence were also collected by looking up its POS context and other annotation layers before being
